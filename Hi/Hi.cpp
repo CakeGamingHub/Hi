@@ -15,13 +15,14 @@ int main()
 	std::cout << HiBrain.CalcScore() << std::endl;
 
 	HiBrain.StartConversation();
+	std::cout << HiBrain.TargetCharacteristics.FullName << std::endl;
 
 	std::cout << HiBrain.CalcScore() << std::endl;
 
-	for (;;)
+	/*for (;;)
 	{
 		std::cout << HiBrain.CalcScore() << std::endl;
-	}
+	}*/
 
     return 0;
 }
