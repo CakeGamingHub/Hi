@@ -6,12 +6,22 @@
 
 #include <iostream>
 #include <string>
+#include "Hi.h"
 
 int main()
 {
 	Brain HiBrain = Brain();
 
 	std::cout << HiBrain.CalcScore() << std::endl;
+
+	HiBrain.StartConversation();
+
+	std::cout << HiBrain.CalcScore() << std::endl;
+
+	for (;;)
+	{
+		std::cout << HiBrain.CalcScore() << std::endl;
+	}
 
     return 0;
 }

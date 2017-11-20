@@ -3,6 +3,8 @@
 #include "Charactertistics.h"
 #include "Tendencies.h"
 #include "EMon.h"
+#include <iostream>
+
 
 class Brain
 {
@@ -17,6 +19,8 @@ public:
 	Charactertistics TargetCharacteristics;
 	Tendencies TargetTendencies;
 	EMon TargetEMon;
+
+	void StartConversation();
 
 	int Score;
 

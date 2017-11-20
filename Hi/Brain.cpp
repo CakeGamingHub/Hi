@@ -11,6 +11,15 @@ Brain::~Brain()
 {
 }
 
+void Brain::StartConversation()
+{
+	std::cout << "Hi, I'm Hi. Who are you?" << std::endl;
+	std::string Target;
+	std::cin >> Target;
+	TargetCharacteristics.AddressAs = Target;
+
+}
+
 int Brain::CalcScore()
 {
 	int NewScore = 0;

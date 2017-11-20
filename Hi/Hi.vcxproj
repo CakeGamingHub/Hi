@@ -149,6 +149,7 @@
     <ClInclude Include="Brain.h" />
     <ClInclude Include="Charactertistics.h" />
     <ClInclude Include="EMon.h" />
+    <ClInclude Include="Hi.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
     <ClInclude Include="Tendencies.h" />
